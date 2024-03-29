@@ -34,17 +34,19 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         
         caption = f"""
-        ***Heyyyy...***
+        ***𝗛𝗘𝗬𝗬...𝗕𝗔𝗕𝗬🥀👀😎***
 
-***I am An Open Source Character Catcher Bot...​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+***𝗜 𝗮𝗺 𝗮𝗻...
+⛩️𝗜𝗡𝗦𝗔𝗡𝗘 𝗖𝗔𝗧𝗖𝗛𝗘𝗥 𝗕𝗢𝗧⛩️
+𝗔𝗱𝗱 𝗠𝗲 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗜 𝘄𝗶𝗹𝗹 𝘀𝗲𝗻𝗱 𝗥𝗮𝗻𝗱𝗼𝗺 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀𝗔𝗳𝘁𝗲𝗿.. 𝗲𝘃𝗲𝗿𝘆 𝟮𝟱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗶𝗻 𝗚𝗿𝗼𝘂𝗽... 𝗨𝘀𝗲 /guess 𝘁𝗼.. 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝘁𝗵𝗮𝘁 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻.. 𝗮𝗻𝗱 𝘀𝗲𝗲 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗯𝘆 𝘂𝘀𝗶𝗻𝗴 /harem... 𝗦𝗼 𝗮𝗱𝗱 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽𝘀 𝗮𝗻𝗱 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝗬𝗼𝘂𝗿 𝗵𝗮𝗿𝗲𝗺***
         """
         
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("🎁𝙐𝙋𝘿𝘼𝙏𝙀🎁", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
+            [InlineKeyboardButton("🥀𝙊𝙒𝙉𝙀𝙍🥀", url=f'https://t.me/abtkaneki')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -54,11 +56,11 @@ async def start(update: Update, context: CallbackContext) -> None:
     else:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("🎁𝙐𝙋𝘿𝘼𝙏𝙀🎁", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
+            [InlineKeyboardButton("🥀𝙊𝙒𝙉𝙀𝙍🥀", url=f'https://t.me/abtkaneki')]
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -90,18 +92,20 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***Hoyyyy...*** ✨
+        ***𝗛𝗘𝗬𝗬...𝗕𝗔𝗕𝗬🥀👀😎*** ✨
 
-***I am An Open Source Character Catcher Bot..​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+***𝗜 𝗮𝗺 𝗮𝗻...
+⛩️𝗜𝗡𝗦𝗔𝗡𝗘 𝗖𝗔𝗧𝗖𝗛𝗘𝗥 𝗕𝗢𝗧⛩️
+𝗔𝗱𝗱 𝗠𝗲 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗜 𝘄𝗶𝗹𝗹 𝘀𝗲𝗻𝗱 𝗥𝗮𝗻𝗱𝗼𝗺 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀𝗔𝗳𝘁𝗲𝗿.. 𝗲𝘃𝗲𝗿𝘆 𝟮𝟱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗶𝗻 𝗚𝗿𝗼𝘂𝗽... 𝗨𝘀𝗲 /guess 𝘁𝗼.. 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝘁𝗵𝗮𝘁 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝘀 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻.. 𝗮𝗻𝗱 𝘀𝗲𝗲 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗯𝘆 𝘂𝘀𝗶𝗻𝗴 /harem... 𝗦𝗼 𝗮𝗱𝗱 𝗶𝗻 𝗬𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽𝘀 𝗮𝗻𝗱 𝗖𝗼𝗹𝗹𝗲𝗰𝘁 𝗬𝗼𝘂𝗿 𝗵𝗮𝗿𝗲𝗺***
         """
 
         
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("😎𝙆𝙄𝘿𝙉𝘼𝙋 𝙈𝙀😎", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("⛩️𝙎𝙐𝙋𝙋𝙊𝙍𝙏⛩️", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("🎁𝙐𝙋𝘿𝘼𝙏𝙀🎁", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("⚡𝘼𝘽𝙄𝙇𝙄𝙏𝙄𝙀𝙎⚡", callback_data='help')],
+            [InlineKeyboardButton("🥀𝙊𝙒𝙉𝙀𝙍 🥀", url=f'https://t.me/abtkaneki')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
