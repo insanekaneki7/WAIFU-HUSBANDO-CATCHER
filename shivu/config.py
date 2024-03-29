@@ -6,7 +6,7 @@ class Config(object):
     sudo_users = "6624008600", "5208708688"
     GROUP_ID = -1002093059683
     TOKEN = "6939032035:AAH7uosZb9v05Iy6DULV2L_Wt2niVpJVduQ"
-    mongo_url = "mongodb+srv://kaneki01:jiNOXXMlwJzDyYvQ@kaneki.nca4u2n.mongodb.net/?retryWrites=true&w=majority"
+    mongo_url = "mongodb+srv://kaneki01:jiNOXXMlwJzDyYvQ@kaneki.nca4u2n.mongodb.net/"
     PHOTO_URL = ["https://graph.org/file/de583389881d34e4b51e5.jpg", "https://graph.org/file/3eb21ef48c323d0b3f0c5.jpg"]
     SUPPORT_CHAT = "insanesociety"
     UPDATE_CHAT = "insaneupdate"
